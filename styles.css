@@ -1,49 +1,85 @@
-/* General Styles */
+/* styles.css */
+
+/* Basic reset and global styles */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* Intro Section */
-.intro {
-    text-align: center;
+header {
+    background: #f8f8f8;
     padding: 20px;
+    text-align: center;
 }
 
 .cover-image {
     width: 100%;
-    max-width: 1200px;
-    height: auto;
+    max-height: 300px;
+    object-fit: cover;
 }
 
-/* Feature Section */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Feature Section Styles */
 #features {
     padding: 20px;
+    background: #f9f9f9;
 }
 
 .feature {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    gap: 20px; /* Space between image and text */
 }
 
-.feature-image {
-    width: 150px; /* Fixed width for consistency */
-    height: 150px; /* Fixed height for consistency */
-    object-fit: cover; /* Ensures the image covers the space without distortion */
+.feature img {
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    object-fit: cover;
+    margin-right: 20px;
 }
 
-.feature-text {
-    max-width: 600px;
+.feature h3 {
+    margin: 0;
 }
 
-.feature-text h3 {
-    margin-top: 0;
+.feature p {
+    margin: 10px 0;
 }
 
-/* About Section */
+.feature ul {
+    list-style: disc;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+/* About Section Styles */
 #about {
     padding: 20px;
+    background: #ffffff;
+}
+
+#about a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#about a:hover {
+    text-decoration: underline;
 }
