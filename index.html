@@ -5,6 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sitesweep</title>
     <link rel="stylesheet" href="styles.css"> <!-- Ensure correct path to CSS -->
+    <style>
+        /* Quick inline styles for layout */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Space between the two frames */
+            margin-bottom: 30px;
+        }
+
+        .video-frame {
+            width: 560px;
+            height: 315px;
+            position: relative;
+        }
+
+        .video-caption {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .placeholder-frame {
+            width: 560px;
+            height: 315px;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #ccc;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
 
@@ -77,7 +111,19 @@
     <section id="video">
         <h2>Watch the Demo</h2>
         <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wdxskR4Cmjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!-- YouTube Video Frame -->
+            <div class="video-frame">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wdxskR4Cmjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p class="video-caption">What is Sitesweep?</p>
+            </div>
+
+            <!-- Placeholder Frame -->
+            <div class="video-frame">
+                <div class="placeholder-frame">
+                    Demo video coming soon!
+                </div>
+                <p class="video-caption">Demo video coming soon!</p>
+            </div>
         </div>
     </section>
 
