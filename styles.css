@@ -24,20 +24,15 @@ body {
 
 .feature {
     display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
-
-.feature-content {
-    display: flex;
     align-items: center;
     margin-bottom: 20px;
+    gap: 20px; /* Space between image and text */
 }
 
 .feature-image {
-    width: 150px; /* Set a fixed width for all images */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Space between image and text */
+    width: 150px; /* Fixed width for consistency */
+    height: 150px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures the image covers the space without distortion */
 }
 
 .feature-text {
