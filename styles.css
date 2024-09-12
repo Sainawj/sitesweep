@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
 header {
@@ -29,6 +30,8 @@ header {
     padding: 20px;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
 }
 
 .intro-content h1 {
@@ -66,6 +69,8 @@ header {
 
 section {
     padding: 20px;
+    max-width: 1200px; /* Optional: Set a max-width for large screens */
+    margin: 0 auto; /* Center the section horizontally */
 }
 
 h2 {
@@ -78,6 +83,7 @@ h2 {
     align-items: center;
     margin-bottom: 20px;
     padding: 10px;
+    border-bottom: 1px solid #ddd; /* Optional: Add a border for separation */
 }
 
 .feature-image {
@@ -106,6 +112,8 @@ ul li {
 .about-section {
     background-color: #f4f4f4;
     padding: 20px;
+    max-width: 1200px; /* Optional: Set a max-width for large screens */
+    margin: 0 auto; /* Center the section horizontally */
 }
 
 .about-section h2 {
