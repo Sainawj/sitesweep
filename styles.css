@@ -1,141 +1,54 @@
-/* General reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-/* Header */
-header {
-    background: #333;
-    color: #fff;
-    padding: 20px;
+/* Intro Section */
+.intro {
     text-align: center;
+    padding: 20px;
 }
 
 .cover-image {
-    max-width: 100%;
+    width: 100%;
+    max-width: 1200px;
     height: auto;
 }
 
-.intro h1 {
-    margin: 10px 0;
-    font-size: 3em;
-}
-
-.intro p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.btn {
-    background-color: #0066cc;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-/* Section styles */
-section {
-    padding: 60px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 2.5em;
+/* Feature Section */
+#features {
+    padding: 20px;
 }
 
 .feature {
-    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
 
-.feature img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+.feature-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.feature h3 {
-    margin: 20px 0;
-    font-size: 1.5em;
-    text-align: center;
+.feature-image {
+    width: 150px; /* Set a fixed width for all images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between image and text */
 }
 
-.feature p,
-.feature ul {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
+.feature-text {
+    max-width: 600px;
 }
 
-.feature ul {
-    list-style-type: disc;
-    padding-left: 40px;
-    text-align: left;
+.feature-text h3 {
+    margin-top: 0;
 }
 
-/* About section */
+/* About Section */
 #about {
-    background-color: #fff;
-    padding: 60px 20px;
-}
-
-#about ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#about ul li {
-    margin: 10px 0;
-}
-
-#about ul li a {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-#about ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .intro h1 {
-        font-size: 2.5em;
-    }
-
-    .feature h3 {
-        font-size: 1.2em;
-    }
+    padding: 20px;
 }
