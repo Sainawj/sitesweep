@@ -29,6 +29,7 @@ header {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
+    background-color: #0003088c;
 }
 
 .nav-links {
@@ -62,7 +63,7 @@ header {
 /* Feature Section */
 #features {
     padding: 2rem;
-    background-color: #f9f9f9;
+    background-color: #cfcdcd;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,9 +131,9 @@ iframe {
 /* About Section */
 .about-section {
     padding: 2rem;
-    background-color: #333;
-    color: white;
-    text-align: center;
+    background-color: #cdcaca;
+    color: #000000;
+    text-align: justify;
 }
 
 /* Footer Styling */
