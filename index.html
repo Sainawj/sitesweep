@@ -5,40 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sitesweep</title>
     <link rel="stylesheet" href="styles.css"> <!-- Ensure correct path to CSS -->
-    <style>
-        /* Quick inline styles for layout */
-        .video-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px; /* Space between the two frames */
-            margin-bottom: 30px;
-        }
-
-        .video-frame {
-            width: 560px;
-            height: 315px;
-            position: relative;
-        }
-
-        .video-caption {
-            text-align: center;
-            margin-top: 10px;
-            font-weight: bold;
-        }
-
-        .placeholder-frame {
-            width: 560px;
-            height: 315px;
-            background-color: #f0f0f0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 2px solid #ccc;
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: #666;
-        }
-    </style>
 </head>
 <body>
 
@@ -77,6 +43,7 @@
                 </ul>
             </div>
         </div>
+
         <div class="feature">
             <img src="data_ingestion.png" alt="Seamless Data Ingestion" class="feature-image">
             <div class="feature-text">
@@ -91,39 +58,19 @@
                 </ul>
             </div>
         </div>
-        <div class="feature">
-            <img src="user_experience.png" alt="User-Friendly Interface" class="feature-image">
-            <div class="feature-text">
-                <h3>User-Friendly Interface</h3>
-                <p>Navigate through a simple, intuitive interface designed for both novice and advanced users. The user-friendly dashboard provides easy access to scraping settings, data management tools, and historical data analysis. Our responsive design ensures a seamless experience across all devices, making it easy to manage your data collection and ingestion tasks.</p>
-                <ul>
-                    <li>Intuitive user interface with easy navigation</li>
-                    <li>Dashboard for managing scraping and ingestion tasks</li>
-                    <li>Real-time data monitoring and reporting</li>
-                    <li>Mobile-friendly and responsive design</li>
-                    <li>Comprehensive support and documentation</li>
-                </ul>
-            </div>
-        </div>
     </section>
 
     <!-- Video Section -->
-    <section id="video">
-        <h2>Watch the Demo</h2>
-        <div class="video-container">
-            <!-- YouTube Video Frame -->
-            <div class="video-frame">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/wdxskR4Cmjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p class="video-caption">What is Sitesweep?</p>
+    <section class="video-section">
+        <div class="video-frame">
+            <iframe src="https://www.youtube.com/embed/wdxskR4Cmjg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="video-caption">What is Sitesweep?</p>
+        </div>
+        <div class="video-frame">
+            <div class="black-bg-white-text">
+                Demo video coming soon!
             </div>
-
-            <!-- Placeholder Frame -->
-            <div class="video-frame">
-                <div class="placeholder-frame">
-                    Demo video coming soon!
-                </div>
-                <p class="video-caption">Demo video coming soon!</p>
-            </div>
+            <p class="video-caption">Demo video coming soon!</p>
         </div>
     </section>
 
@@ -132,12 +79,12 @@
         <h2>About This Project</h2>
         <p>The DataScraper & Ingestor application was created to simplify and enhance the process of data extraction and management. By leveraging cutting-edge web scraping techniques and automated data ingestion pipelines, our tool helps users efficiently collect and manage data from various sources. The project addresses the need for reliable, scalable data collection solutions in a digital world where data is increasingly valuable.</p>
         <p>Developed as a portfolio project, this application showcases our ability to build complex, user-focused tools using modern technologies. Explore the project, its code, and contributions on <a href="https://github.com/Sainawj/sitesweep_scraper">GitHub</a>.</p>
-
-        <h3>Meet the Team</h3>
+   <h3>Meet the Team</h3>
         <ul>
             <li><a href="https://www.linkedin.com/in/jonathan-saina/">Jonathan Saina - LinkedIn</a> | <a href="https://github.com/sainawj">GitHub</a> | <a href="https://x.com/sainawire">Twitter</a></li>
             <li><a href="https://www.linkedin.com/in/georges-mbock/">Georges Mbock - LinkedIn</a> | <a href="https://github.com/georgesmbock">GitHub</a> | <a href="https://twitter.com/georgesmbock">Twitter</a></li>
         </ul>
+    
     </section>
 
 </body>
